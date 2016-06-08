@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GREat Tour 2</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember my Acess Informations</string>
+    <string name="errorConnectivity">No Connection found !</string>
+    <string name="okConnectivity">Connection found !</string>
+    <string name="login">Login</string>
+    <string name="files">Files</string>
+    <string name="texts">Texts</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Vídeos</string>
+    <string name="audios">Audios</string>
+    <string name="persons">Persons</string>
+    <string name="namePersons">Name</string>
+    <string name="emailPersons">E-mail</string>
+    <string name="researchLinePersons">Research Line</string>
+    <string name="areaOfInterestPersons">Area of ​​Interest</string>
+    <string name="aboutPersons">About</string>
+    <string name="digitalClock">DigitalClock</string>
+
+</resources>

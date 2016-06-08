@@ -1,0 +1,49 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+
+     <Button
+         android:id="@+id/btnBack"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="&lt;&lt; Back" />
+
+
+     <Button
+         android:id="@+id/btnNext"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Next >>" />
+  	        
+ 	</TableRow>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+    <ImageView
+        android:id="@+id/fullimage"
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
+    
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+   		  
+   	
+	
+</TableLayout>

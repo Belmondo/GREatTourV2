@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+ 
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+	    <GridView
+	        android:id="@+id/gridView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:numColumns="2" >
+	    </GridView>
+  	        
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+   		  
+   	
+</TableLayout>	

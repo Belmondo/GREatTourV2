@@ -1,0 +1,102 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.ufc.great.greattour"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+       <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+     
+    <!-- Permission to write to external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+
+    <application
+       	android:name="br.ufc.great.returnpersons.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logogreatour_icone"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+       
+        
+        <activity
+            
+        	android:name="br.ufc.great.greattour.LoginActivity"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+			    
+				<action android:name="android.intent.action.MAIN" />
+				
+				<category android:name="android.intent.category.LAUNCHER" />
+					
+			</intent-filter>
+			
+		</activity>
+		
+        
+        <activity android:name="br.ufc.great.greattour.QrActivity" />
+        <activity android:name="br.ufc.great.greattour.CurrentRoomActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name="br.ufc.great.greattour.LegendActivity" 
+            android:screenOrientation="landscape"/>
+        <activity android:name="br.ufc.great.greattour.FilesActivity"
+            android:screenOrientation="landscape"/>
+        
+       
+        <!-- documentos ok -->
+        <activity android:name="br.ufc.great.greattour.DocumentsActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="br.ufc.great.greattour.streamFiles.StreamDocument"
+            android:screenOrientation="landscape"/>
+        <!-- fim dos documentos ok -->
+        
+        
+        <!-- videos OK -->
+        <activity android:name="br.ufc.great.greattour.VideoActivity"
+           />
+        <activity android:name="br.ufc.great.greattour.streamFiles.StreamVideo"
+            />
+        
+        <!-- fim videos ok -->
+        
+        
+        <!-- sons ok -->
+        <activity android:name="br.ufc.great.greattour.SoundActivity"/>
+        <activity android:name="br.ufc.great.greattour.streamFiles.StreamAudio"/>
+        
+        <!-- fim sons ok -->
+        
+        
+        <!-- galeria nova ok -->
+        <activity android:name="br.ufc.great.greattour.PhotosActivity" 
+            android:theme="@style/AppTheme"
+		    android:screenOrientation="portrait"/>
+        <activity android:name="br.ufc.great.greattour.streamFiles.PlayImagesActivity" 
+            android:theme="@style/AppTheme"
+		    android:screenOrientation="portrait"/>
+        <!-- galeria antiga ok -->
+        
+        
+        <!-- tela de about -->
+        <activity android:name="br.ufc.great.greattour.AboutActivity"
+            android:screenOrientation="portrait" />
+       <!-- fim da tela de about -->
+       
+       <activity android:name="br.ufc.great.pageslider.PageSlider"
+            android:screenOrientation="portrait" />
+       
+       <activity android:name="br.ufc.great.returnpersons.ReturnPersonActivity"
+           android:screenOrientation="portrait" />
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>
